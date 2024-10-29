@@ -1,0 +1,30 @@
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\bin\Debug\net5.0\Demo.BLL.deps.json
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\bin\Debug\net5.0\Demo.BLL.dll
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\bin\Debug\net5.0\Demo.BLL.pdb
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\bin\Debug\net5.0\Demo.DAL.dll
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\bin\Debug\net5.0\Demo.DAL.pdb
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\obj\Debug\net5.0\Demo.BLL.csproj.AssemblyReference.cache
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\obj\Debug\net5.0\Demo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\obj\Debug\net5.0\Demo.BLL.AssemblyInfoInputs.cache
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\obj\Debug\net5.0\Demo.BLL.AssemblyInfo.cs
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\obj\Debug\net5.0\Demo.BLL.csproj.CoreCompileInputs.cache
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\obj\Debug\net5.0\Demo.BLL.csproj.Up2Date
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\obj\Debug\net5.0\Demo.BLL.dll
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\obj\Debug\net5.0\refint\Demo.BLL.dll
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\obj\Debug\net5.0\Demo.BLL.pdb
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.BLL\obj\Debug\net5.0\ref\Demo.BLL.dll
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\bin\Debug\net5.0\Demo.BLL.deps.json
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\bin\Debug\net5.0\Demo.BLL.dll
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\bin\Debug\net5.0\Demo.BLL.pdb
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\bin\Debug\net5.0\Demo.DAL.dll
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\bin\Debug\net5.0\Demo.DAL.pdb
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.csproj.AssemblyReference.cache
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.AssemblyInfoInputs.cache
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.AssemblyInfo.cs
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.csproj.CoreCompileInputs.cache
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.csproj.Up2Date
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.dll
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\obj\Debug\net5.0\refint\Demo.BLL.dll
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.pdb
+C:\Users\hhhh\Desktop\MVC\Demo.BLL\obj\Debug\net5.0\ref\Demo.BLL.dll

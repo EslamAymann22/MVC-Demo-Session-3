@@ -1,0 +1,30 @@
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\bin\Debug\net5.0\Demo.DAL.deps.json
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\bin\Debug\net5.0\Demo.DAL.runtimeconfig.json
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\bin\Debug\net5.0\Demo.DAL.runtimeconfig.dev.json
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\bin\Debug\net5.0\Demo.DAL.dll
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\bin\Debug\net5.0\Demo.DAL.pdb
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\obj\Debug\net5.0\Demo.DAL.csproj.AssemblyReference.cache
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\obj\Debug\net5.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\obj\Debug\net5.0\Demo.DAL.AssemblyInfoInputs.cache
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\obj\Debug\net5.0\Demo.DAL.AssemblyInfo.cs
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\obj\Debug\net5.0\Demo.DAL.csproj.CoreCompileInputs.cache
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\obj\Debug\net5.0\Demo.DAL.dll
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\obj\Debug\net5.0\refint\Demo.DAL.dll
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\obj\Debug\net5.0\Demo.DAL.pdb
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\obj\Debug\net5.0\Demo.DAL.genruntimeconfig.cache
+C:\C#\MVC Full Project\MVC Demo Solusion\Demo.DAL\obj\Debug\net5.0\ref\Demo.DAL.dll
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\bin\Debug\net5.0\Demo.DAL.deps.json
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\bin\Debug\net5.0\Demo.DAL.runtimeconfig.json
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\bin\Debug\net5.0\Demo.DAL.runtimeconfig.dev.json
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\bin\Debug\net5.0\Demo.DAL.dll
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\bin\Debug\net5.0\Demo.DAL.pdb
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.csproj.AssemblyReference.cache
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.AssemblyInfoInputs.cache
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.AssemblyInfo.cs
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.csproj.CoreCompileInputs.cache
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.dll
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\obj\Debug\net5.0\refint\Demo.DAL.dll
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.pdb
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.genruntimeconfig.cache
+C:\Users\hhhh\Desktop\MVC\Demo.DAL\obj\Debug\net5.0\ref\Demo.DAL.dll
