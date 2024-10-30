@@ -1336,3 +1336,8 @@ C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Em
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Employee\Edit.cshtml.g.cs
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Employee\Details.cshtml.g.cs
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Employee\Delete.cshtml.g.cs
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Shared\_ButtonsPartialView.cshtml.g.cs
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Department\PartialView\DeleteDetailsPartialView.cshtml.g.cs
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Employee\PartialView\DeleteDetailsPartialView.cshtml.g.cs
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Department\PartialView\CreateEditPartialView.cshtml.g.cs
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Employee\PartialView\CreateEditPartialView.cshtml.g.cs
