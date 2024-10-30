@@ -10,42 +10,50 @@ using System.Threading.Tasks;
 
 namespace Demo.BLL.Repositories
 {
-    public  class DepartmentRepository : IDepartmentRepository
+    public  class DepartmentRepository :   GenericRepository<Department> , IDepartmentRepository 
     {
-        private MvcAppDbContext _MyConn;
 
-        public DepartmentRepository(MvcAppDbContext MyConn)
+        MvcAppDbContext _appDbContext;
+
+        public DepartmentRepository(MvcAppDbContext appDbContext): base(appDbContext) 
         {
-            //MyConn = new MvcAppDbContext();
-            _MyConn = MyConn;
-        }
-        public int Add(Department department)
-        {
-            _MyConn.Add(department);
-            return _MyConn.SaveChanges();
+            _appDbContext = appDbContext;
         }
 
-        public int Delete(Department department)
-        {
-            _MyConn.Remove(department);
-            return _MyConn.SaveChanges();
-        }
+        /* private MvcAppDbContext _MyConn;
 
-        public IEnumerable<Department> GetAll()
-            => _MyConn.Departments.ToList();
+         public DepartmentRepository(MvcAppDbContext MyConn)
+         {
+             //MyConn = new MvcAppDbContext();
+             _MyConn = MyConn;
+         }
+         public int Add(Department department)
+         {
+             _MyConn.Add(department);
+             return _MyConn.SaveChanges();
+         }
 
-        public Department GetById(int Id)
-        {
-            //var res = _MyConn.Departments.Local.Where(D => D.Id == Id).FirstOrDefault();
-            //if (res is null)
-            //    res = _MyConn.Departments.Where(D => D.Id == Id).FirstOrDefault();
-            //return res;
-            return _MyConn.Departments.Find(Id);
-        }
-        public int Update(Department department)
-        {
-            _MyConn.Update(department);
-            return _MyConn.SaveChanges();
-        }
+         public int Delete(Department department)
+         {
+             _MyConn.Remove(department);
+             return _MyConn.SaveChanges();
+         }
+
+         public IEnumerable<Department> GetAll()
+             => _MyConn.Departments.ToList();
+
+         public Department GetById(int Id)
+         {
+             //var res = _MyConn.Departments.Local.Where(D => D.Id == Id).FirstOrDefault();
+             //if (res is null)
+             //    res = _MyConn.Departments.Where(D => D.Id == Id).FirstOrDefault();
+             //return res;
+             return _MyConn.Departments.Find(Id);
+         }
+         public int Update(Department department)
+         {
+             _MyConn.Update(department);
+             return _MyConn.SaveChanges();
+         }*/
     }
 }

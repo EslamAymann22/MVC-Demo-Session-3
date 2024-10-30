@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Employee>
+@{
+    ViewData["Title"] = "All Employees";
+    // Layout = "~/Views/Shared/_Layout.cshtml";
+
+    // string s = ViewBag.Message;
+    // string s = (string) ViewData["Message"];
+
+}
+
+
+ @* <div class="alter alert-info" >
+     @ViewData["Message"]
+ </div>   
+ <br />    <br />    <br />
+
+ <div class="alter alert-danger">
+         @ViewBag.message
+ </div><br /><br /> *@
+    <a asp-action="Create" class="btn btn-success"> Add Employee</a>
+
+@if (Model.Count() > 0)
+{
+
+    <h1>All Departments</h1>
+    <br />
+    <br />
+
+    <br />
+    <br />
+
+    <table class="table table-striped table-hover" mt-3>
+        <thead>
+            <tr>
+                <td>@Html.DisplayNameFor(E => E.Name)</td>
+                <td>@Html.DisplayNameFor(E => E.Age)</td>
+                <td>@Html.DisplayNameFor(E => E.Salary)</td>
+                <td>@Html.DisplayNameFor(E => E.CreationDate)</td>
+                <td>@Html.DisplayNameFor(E => E.HireDate)</td>
+                <td>@Html.DisplayNameFor(E => E.Address)</td>
+                <td>@Html.DisplayNameFor(E => E.Phone)</td>
+                <td>@Html.DisplayNameFor(E => E.Email)</td>
+                <td>@Html.DisplayNameFor(E => E.IsActive)</td>
+                <td>Details</td>
+                <td>Update</td>
+                <td>Delete</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var Emp in Model)
+            {
+                <tr>
+                    <td>@Emp.Name</td>
+                    <td>@Emp.Age</td>
+                    <td>@Emp.Salary</td>
+                    <td>@Emp.CreationDate</td>
+                    <td>@Emp.HireDate</td>
+                    <td>@Emp.Address</td>
+                    <td>@Emp.Phone</td>
+                    <td>@Emp.Email</td>
+                    <td>@Emp.IsActive</td>
+
+                    
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+else
+{
+    <div class="mt-5 alert alert-warning">
+        <h3>There Is No Employee</h3>
+    </div>
+}

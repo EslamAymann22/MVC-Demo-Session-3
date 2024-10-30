@@ -21,6 +21,7 @@ namespace Demo.DAL.MyContexts
         //        "Server = . ; Database = MvcProjectDb ; Trusted_connection = True ; Trust Server Certificate = True");
 
         public DbSet<Department> Departments { get; set; }
+        public DbSet<Employee>Employees  { get; set; }
 
 
     }

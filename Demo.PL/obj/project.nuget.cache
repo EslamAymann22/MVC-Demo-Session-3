@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V+a1M3py6B8=",
+  "dgSpecHash": "Om0nGjjRZJw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hhhh\\Desktop\\MVC\\Demo.PL\\Demo.PL.csproj",
+  "projectFilePath": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Demo.PL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hhhh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hhhh\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
