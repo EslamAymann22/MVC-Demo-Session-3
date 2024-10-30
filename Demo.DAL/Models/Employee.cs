@@ -1,7 +1,9 @@
-﻿using Microsoft.VisualBasic;
+﻿using Demo.DAL.Migrations;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,6 +33,10 @@ namespace Demo.DAL.Models
         public DateTime HireDate { get; set; }
         public DateTime CreationDate { get; set; } = DateTime.Now;
 
+        [ForeignKey("department")]
+        public int? DepartmentId {get; set; }
+        [InverseProperty("Employees")]
+        public Department department { get; set; }
 
     }
 }

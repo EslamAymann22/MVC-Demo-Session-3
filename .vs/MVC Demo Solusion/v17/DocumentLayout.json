@@ -3,48 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\employee\\partialview\\deletedetailspartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\partialview\\deletedetailspartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\employee\\partialview\\createeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\partialview\\createeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DE4BCEE9-2734-4841-9368-E78440651BEB}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.dal\\migrations\\20241030213456_employeedepartmentrealatoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4BCEE9-2734-4841-9368-E78440651BEB}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\migrations\\20241030213456_employeedepartmentrealatoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4BCEE9-2734-4841-9368-E78440651BEB}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4BCEE9-2734-4841-9368-E78440651BEB}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,145 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\Details.cshtml",
-              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\Details.cshtml",
-              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\Details.cshtml",
-              "RelativeToolTip": "Demo.PL\\Views\\Employee\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T21:20:14.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Department\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Demo.PL\\Views\\Department\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Department\\Edit.cshtml",
-              "RelativeToolTip": "Demo.PL\\Views\\Department\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T21:20:05.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DeleteDetailsPartialView.cshtml",
-              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\PartialView\\DeleteDetailsPartialView.cshtml",
-              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\PartialView\\DeleteDetailsPartialView.cshtml",
-              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\PartialView\\DeleteDetailsPartialView.cshtml",
-              "RelativeToolTip": "Demo.PL\\Views\\Employee\\PartialView\\DeleteDetailsPartialView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T21:19:24.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\Delete.cshtml",
-              "RelativeToolTip": "Demo.PL\\Views\\Employee\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T21:19:14.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Department\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Demo.PL\\Views\\Department\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Department\\Delete.cshtml",
-              "RelativeToolTip": "Demo.PL\\Views\\Department\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T21:18:24.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Department\\Details.cshtml",
-              "RelativeDocumentMoniker": "Demo.PL\\Views\\Department\\Details.cshtml",
-              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Department\\Details.cshtml",
-              "RelativeToolTip": "Demo.PL\\Views\\Department\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T21:18:23.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Department\\Create.cshtml",
-              "RelativeDocumentMoniker": "Demo.PL\\Views\\Department\\Create.cshtml",
-              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Department\\Create.cshtml",
-              "RelativeToolTip": "Demo.PL\\Views\\Department\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T21:18:21.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\Create.cshtml",
-              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\Create.cshtml",
-              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\Create.cshtml",
-              "RelativeToolTip": "Demo.PL\\Views\\Employee\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T21:16:41.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateEditPartialView.cshtml",
-              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\PartialView\\CreateEditPartialView.cshtml",
-              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\PartialView\\CreateEditPartialView.cshtml",
-              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\PartialView\\CreateEditPartialView.cshtml",
-              "RelativeToolTip": "Demo.PL\\Views\\Employee\\PartialView\\CreateEditPartialView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T21:16:22.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\Edit.cshtml",
-              "RelativeToolTip": "Demo.PL\\Views\\Employee\\Edit.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T21:16:08.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\Index.cshtml",
               "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\Index.cshtml",
               "RelativeToolTip": "Demo.PL\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T21:16:00.675Z",
+              "WhenOpened": "2024-10-30T23:15:49.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Demo.PL\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Demo.PL\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADgvygAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T23:04:11.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateEditPartialView.cshtml",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\PartialView\\CreateEditPartialView.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\PartialView\\CreateEditPartialView.cshtml",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Employee\\PartialView\\CreateEditPartialView.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Employee\\PartialView\\CreateEditPartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T23:01:59.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20241030213456_EmployeeDepartmentRealatoin.cs",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.DAL\\Migrations\\20241030213456_EmployeeDepartmentRealatoin.cs",
+              "RelativeDocumentMoniker": "Demo.DAL\\Migrations\\20241030213456_EmployeeDepartmentRealatoin.cs",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.DAL\\Migrations\\20241030213456_EmployeeDepartmentRealatoin.cs",
+              "RelativeToolTip": "Demo.DAL\\Migrations\\20241030213456_EmployeeDepartmentRealatoin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T21:34:57.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.DAL\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Demo.DAL\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.DAL\\Models\\Department.cs",
+              "RelativeToolTip": "Demo.DAL\\Models\\Department.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T21:34:12.754Z",
               "EditorCaption": ""
             }
           ]
