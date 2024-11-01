@@ -16,5 +16,7 @@ namespace Demo.BLL.Interfaces
         //int Update(Employee employee);
         //int Delete(Employee employee);
 
+        IQueryable<Employee> SearchWithName(string SearchName);
+
     }
 }

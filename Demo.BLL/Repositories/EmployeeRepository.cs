@@ -20,6 +20,8 @@ namespace Demo.BLL.Repositories
         public IQueryable<Employee> FindWithAddress(string address)
             =>_DbContext.Employees.Where(E => E.Address == address);
         
+        public IQueryable<Employee> SearchWithName(string SearchName)
+            => _DbContext.Employees.Where(E=>E.Name.ToLower().Contains(SearchName.ToLower()));
         
       /*  public int Add(Employee employee)
         {

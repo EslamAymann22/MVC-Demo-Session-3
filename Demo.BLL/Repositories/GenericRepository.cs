@@ -1,6 +1,7 @@
 ﻿using Demo.BLL.Interfaces;
 using Demo.DAL.Models;
 using Demo.DAL.MyContexts;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,8 +31,15 @@ namespace Demo.BLL.Repositories
         }
 
         public IEnumerable<T> GetAll()
-            =>_DbContext.Set<T>().ToList();
+        { 
 
+            if(typeof(T) == typeof(Employee))
+            {
+                return (IEnumerable<T>) _DbContext.Employees.Include(E=>E.department).ToList();
+            }
+
+            return _DbContext.Set<T>().ToList();
+        }
         public T GetById(int Id)
             => _DbContext.Set<T>().Find(Id);
 
@@ -40,5 +48,9 @@ namespace Demo.BLL.Repositories
             _DbContext.Update(Item);
             return _DbContext.SaveChanges();
         }
+
+        //public IQueryable<T> SearchWithName(string SearchName) 
+        //   => _DbContext.Set<T>().Where(I => I.Name.ToLower().Contains(SearchName.ToLower()));
+
     }
 }

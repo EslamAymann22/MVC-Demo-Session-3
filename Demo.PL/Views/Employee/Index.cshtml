@@ -1,34 +1,34 @@
 ﻿@model IEnumerable<Employee>
 @{
     ViewData["Title"] = "All Employees";
-    // Layout = "~/Views/Shared/_Layout.cshtml";
-
-    // string s = ViewBag.Message;
-    // string s = (string) ViewData["Message"];
+    /// Layout = "~/Views/Shared/_Layout.cshtml";
+    /// string s = ViewBag.Message;
+    /// string s = (string) ViewData["Message"];
 
 }
 
+    <br />    <br />  
 
- @* <div class="alter alert-info" >
-     @ViewData["Message"]
- </div>   
- <br />    <br />    <br />
-
- <div class="alter alert-danger">
-         @ViewBag.message
- </div><br /><br /> *@
     <a asp-action="Create" class="btn btn-success"> Add Employee</a>
+
+
 
 @if (Model.Count() > 0)
 {
 
-    <h1>All Departments</h1>
-    <br />
-    <br />
+    <br />    <br /> 
+    <h1>All Employees</h1>
+    <br />    <br /> 
 
-    <br />
-    <br />
-
+   @*  <form asp-action="Index" class="row m-2">
+        <div class="row">
+            <input class="form-control" type="text" name="SearchName"  placeholder= "Employee's name"/>
+        </div>
+        <div>
+            <input type="submit" value="Search" class="btn btn-info" />
+        </div>
+    </form> *@
+   <br />    <br />
     <table class="table table-striped table-hover" mt-3>
         <thead>
             <tr>
@@ -55,7 +55,7 @@
                     <td>@Emp.Name</td>
                     <td>@Emp.Age</td>
                     <td>@Emp.Salary</td>
-                    <td>@Emp.department?.Id</td> 
+                    <td>@Emp.department.Name</td> 
                     <td>@Emp.CreationDate</td>
                     <td>@Emp.HireDate</td>
                     <td>@Emp.Address</td>

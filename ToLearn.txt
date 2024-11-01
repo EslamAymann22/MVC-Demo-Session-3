@@ -2,6 +2,7 @@ Controllers:
 
 Both MVC and Web API use controllers to handle requests. 
 In MVC, controllers return views (HTML), while in APIs, they return data (usually JSON).
+
 Understanding how controllers work, handle requests, and send responses is crucial for APIs.
 Focus on: Routing, action methods, and how controllers are organized in both frameworks.
 Routing:
@@ -13,14 +14,17 @@ Models:
 
 In MVC, models represent data and handle business logic. In APIs, models are often used to define the structure of data sent in requests and responses. Understanding models helps in designing the data layer of your API.
 Focus on: Creating models, validation, and binding data to and from models in both MVC and API.
+
 Dependency Injection (DI):
 
 Both MVC and Web API use Dependency Injection to manage services (like database contexts, logging, etc.). DI helps you write modular, testable code. This is very important when building scalable APIs.
-Focus on: Understanding how to inject services into controllers and use them for API logic.
+Focus on:
+ Understanding how to inject services into controllers and use them for API logic.
 Middleware & Filters:
 
 Middleware in both MVC and Web API is used to handle things like authentication, logging, error handling, and request/response pipelines.
-Focus on: Middleware and action filters, especially for APIs, where you’ll need to handle cross-cutting concerns (like logging and authorization).
+Focus on: 
+Middleware and action filters, especially for APIs, where you’ll need to handle cross-cutting concerns (like logging and authorization).
 HTTP Methods and Status Codes:
 
 APIs focus on HTTP methods (GET, POST, PUT, DELETE), while MVC controllers typically return views based on HTTP requests. Both use HTTP status codes to indicate success or failure (e.g., 200 for success, 404 for not found).

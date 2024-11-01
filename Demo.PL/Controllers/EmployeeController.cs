@@ -1,36 +1,41 @@
-﻿using Demo.BLL.Interfaces;
+﻿using AutoMapper;
+using Demo.BLL.Interfaces;
 using Demo.BLL.Repositories;
 using Demo.DAL.Models;
+using Demo.PL.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.Intrinsics.Arm;
 
 namespace Demo.PL.Controllers
 {
-
-
-
-
     public class EmployeeController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
         private readonly IDepartmentRepository _departmentRepository;
-
-        public EmployeeController(IEmployeeRepository employeeRepository , IDepartmentRepository departmentRepository)
+        private readonly IMapper _mapper;
+        public EmployeeController(IEmployeeRepository employeeRepository
+            , IDepartmentRepository departmentRepository
+            , IMapper mapper)
         {
             _employeeRepository = employeeRepository;
             _departmentRepository = departmentRepository;
+            _mapper = mapper;
         }
-
-        public IActionResult Index()
+        public IActionResult Index(string SearchName)
         {
-            var res = _employeeRepository.GetAll();
-            //ViewBag.
-            ViewData["message"] = "I'm from Index Controller";
-            //ViewBag.Message = ViewData["Message"]  + "From ViewBag";
-            ViewBag.Message = 5;
-            return View(res);
 
+            if (SearchName is null || SearchName == "")
+            {
+                var _Departments = _employeeRepository.GetAll();
+                return View(_Departments);
+            }
+            else
+            {
+                var res = _employeeRepository.SearchWithName(SearchName);
+                return View(res);
+            }
         }
 
         [HttpGet]
@@ -41,19 +46,22 @@ namespace Demo.PL.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Employee Emp)
+        public IActionResult Create(EmployeeViewModel EmpVM)    
         {
+            var MappedEmp=_mapper.Map<EmployeeViewModel,Employee>(EmpVM);
+
             if (ModelState.IsValid)
             {
-                _employeeRepository.Add(Emp);
+                _employeeRepository.Add(MappedEmp);
                 return RedirectToAction(nameof(Index));
             }
-            return View(Emp);
+            return View(EmpVM);
         }
 
         [HttpGet]
         public IActionResult Edit(int? id , string ViewName="Edit")
         {
+            ViewBag.Departments = _departmentRepository.GetAll();
             if (id is null)
                 return BadRequest();
             var res = _employeeRepository.GetById(id.Value);
