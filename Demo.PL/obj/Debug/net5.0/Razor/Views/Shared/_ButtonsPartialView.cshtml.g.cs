@@ -28,12 +28,18 @@ using Demo.PL.Models
 #line 3 "C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\Views\_ViewImports.cshtml"
 using Demo.DAL.Models
 
+#nullable disable
+    ;
+#nullable restore
+#line 4 "C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\Views\_ViewImports.cshtml"
+using Demo.PL.ViewModels
+
 #line default
 #line hidden
 #nullable disable
     ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"9c195d60f6041859ea6ab481e4086cd6027db2e2b74140850bbd060a8a4ec701", @"/Views/Shared/_ButtonsPartialView.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"61386bd97c8d5b99e2306f311ceeb105ad53594738ee345b84fbdd091f17ba62", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"ba605322047f027be7ba596e3eaf7edfe612a175fa00d79c48aed8a0959f0082", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared__ButtonsPartialView : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<int>
     #nullable disable
@@ -66,7 +72,7 @@ using Demo.DAL.Models
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c195d60f6041859ea6ab481e4086cd6027db2e2b74140850bbd060a8a4ec7014336", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c195d60f6041859ea6ab481e4086cd6027db2e2b74140850bbd060a8a4ec7014495", async() => {
                 WriteLiteral("<i class=\"fas fa-eye\"></i>");
             }
             );
@@ -99,7 +105,7 @@ using Demo.DAL.Models
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</td>\r\n<td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c195d60f6041859ea6ab481e4086cd6027db2e2b74140850bbd060a8a4ec7016578", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c195d60f6041859ea6ab481e4086cd6027db2e2b74140850bbd060a8a4ec7016737", async() => {
                 WriteLiteral("<i class=\"fas fa-edit\"></i>");
             }
             );
@@ -132,7 +138,7 @@ using Demo.DAL.Models
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</td>\r\n<td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c195d60f6041859ea6ab481e4086cd6027db2e2b74140850bbd060a8a4ec7018818", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c195d60f6041859ea6ab481e4086cd6027db2e2b74140850bbd060a8a4ec7018977", async() => {
                 WriteLiteral("<i class=\"fas fa-trash\"></i>");
             }
             );

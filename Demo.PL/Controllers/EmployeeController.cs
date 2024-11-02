@@ -14,14 +14,13 @@ namespace Demo.PL.Controllers
     {
         private readonly IEmployeeRepository _employeeRepository;
         private readonly IDepartmentRepository _departmentRepository;
-        private readonly IMapper _mapper;
+        //private readonly IMapper _mapper;
         public EmployeeController(IEmployeeRepository employeeRepository
-            , IDepartmentRepository departmentRepository
-            , IMapper mapper)
+            , IDepartmentRepository departmentRepository)
         {
             _employeeRepository = employeeRepository;
             _departmentRepository = departmentRepository;
-            _mapper = mapper;
+
         }
         public IActionResult Index(string SearchName)
         {
@@ -34,7 +33,7 @@ namespace Demo.PL.Controllers
             else
             {
                 var res = _employeeRepository.SearchWithName(SearchName);
-                return View(res);
+                return View(res); 
             }
         }
 
@@ -46,16 +45,16 @@ namespace Demo.PL.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(EmployeeViewModel EmpVM)    
+        public IActionResult Create(Employee Emp)    
         {
-            var MappedEmp=_mapper.Map<EmployeeViewModel,Employee>(EmpVM);
+            //var MappedEmp=_mapper.Map<EmployeeViewModel,Employee>(EmpVM);
 
             if (ModelState.IsValid)
             {
-                _employeeRepository.Add(MappedEmp);
+                _employeeRepository.Add(Emp);
                 return RedirectToAction(nameof(Index));
             }
-            return View(EmpVM);
+            return View(Emp);
         }
 
         [HttpGet]

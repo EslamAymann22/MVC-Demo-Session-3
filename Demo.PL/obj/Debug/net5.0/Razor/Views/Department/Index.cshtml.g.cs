@@ -28,12 +28,18 @@ using Demo.PL.Models
 #line 3 "C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\Views\_ViewImports.cshtml"
 using Demo.DAL.Models
 
+#nullable disable
+    ;
+#nullable restore
+#line 4 "C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\Views\_ViewImports.cshtml"
+using Demo.PL.ViewModels
+
 #line default
 #line hidden
 #nullable disable
     ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"fd117139e19e5cfca8ec3f2211360e304d1f5ec57332b55bc809f7a6fd230dcd", @"/Views/Department/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"61386bd97c8d5b99e2306f311ceeb105ad53594738ee345b84fbdd091f17ba62", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"ba605322047f027be7ba596e3eaf7edfe612a175fa00d79c48aed8a0959f0082", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Department_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Department>>
     #nullable disable
@@ -89,7 +95,7 @@ using Demo.DAL.Models
 
             WriteLiteral("    <h1>All Departments</h1>\r\n    <br />\r\n    <br />\r\n");
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd117139e19e5cfca8ec3f2211360e304d1f5ec57332b55bc809f7a6fd230dcd5078", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd117139e19e5cfca8ec3f2211360e304d1f5ec57332b55bc809f7a6fd230dcd5237", async() => {
                 WriteLiteral(" Add Department");
             }
             );
@@ -178,7 +184,7 @@ using Demo.DAL.Models
 #nullable disable
             );
             WriteLiteral("</td>\r\n\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fd117139e19e5cfca8ec3f2211360e304d1f5ec57332b55bc809f7a6fd230dcd8839", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fd117139e19e5cfca8ec3f2211360e304d1f5ec57332b55bc809f7a6fd230dcd8998", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

@@ -28,12 +28,18 @@ using Demo.PL.Models
 #line 3 "C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\Views\_ViewImports.cshtml"
 using Demo.DAL.Models
 
+#nullable disable
+    ;
+#nullable restore
+#line 4 "C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\Views\_ViewImports.cshtml"
+using Demo.PL.ViewModels
+
 #line default
 #line hidden
 #nullable disable
     ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"2731bded32b2bb55572193f88421fdf00ad6706bc083961ba545978f60d1fca5", @"/Views/Employee/Edit.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"61386bd97c8d5b99e2306f311ceeb105ad53594738ee345b84fbdd091f17ba62", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"ba605322047f027be7ba596e3eaf7edfe612a175fa00d79c48aed8a0959f0082", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Employee_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Employee>
     #nullable disable
@@ -80,9 +86,9 @@ using Demo.DAL.Models
 #nullable disable
 
             WriteLiteral("\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2731bded32b2bb55572193f88421fdf00ad6706bc083961ba545978f60d1fca55311", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2731bded32b2bb55572193f88421fdf00ad6706bc083961ba545978f60d1fca55470", async() => {
                 WriteLiteral("\r\n\r\n   \r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2731bded32b2bb55572193f88421fdf00ad6706bc083961ba545978f60d1fca55608", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2731bded32b2bb55572193f88421fdf00ad6706bc083961ba545978f60d1fca55767", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -107,7 +113,7 @@ using Demo.DAL.Models
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n\r\n\r\n    <input type=\"submit\" class=\"btn btn-info\" value=\"Save\"/>\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2731bded32b2bb55572193f88421fdf00ad6706bc083961ba545978f60d1fca57439", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2731bded32b2bb55572193f88421fdf00ad6706bc083961ba545978f60d1fca57598", async() => {
                     WriteLiteral(" Cancel ");
                 }
                 );

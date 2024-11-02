@@ -985,7 +985,6 @@ C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -1011,8 +1010,6 @@ C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -1111,7 +1108,6 @@ C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.Re
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.Runtime.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -1341,3 +1337,9 @@ C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\De
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Employee\PartialView\DeleteDetailsPartialView.cshtml.g.cs
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Department\PartialView\CreateEditPartialView.cshtml.g.cs
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Employee\PartialView\CreateEditPartialView.cshtml.g.cs
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

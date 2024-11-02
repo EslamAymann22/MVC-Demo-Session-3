@@ -13,6 +13,8 @@
 
 
 
+
+
 @if (Model.Count() > 0)
 {
 
@@ -20,6 +22,17 @@
     <h1>All Employees</h1>
     <br />    <br /> 
 
+    <form class="row" asp-action="index">
+     
+        <div class="col-11">
+            <input type="text" name="SearchName" placeholder="Employee's Name " class="form-control" />
+        </div>
+        <div class="col-1">
+            <input type="submit"  class="btn btn-info" value="Search"/>
+        </div>
+
+    </form>
+    <br />    <br /> 
    @*  <form asp-action="Index" class="row m-2">
         <div class="row">
             <input class="form-control" type="text" name="SearchName"  placeholder= "Employee's name"/>
@@ -55,13 +68,18 @@
                     <td>@Emp.Name</td>
                     <td>@Emp.Age</td>
                     <td>@Emp.Salary</td>
-                    <td>@Emp.department.Name</td> 
+                    <td>@Emp.department.Name</td>
                     <td>@Emp.CreationDate</td>
                     <td>@Emp.HireDate</td>
                     <td>@Emp.Address</td>
                     <td>@Emp.Phone</td>
                     <td>@Emp.Email</td>
-                    <td>@Emp.IsActive</td>
+                    @* <td>@Emp.IsActive</td> *@
+                    @{
+                        string t = (Emp.IsActive) ? "green" : "red";
+                    }
+
+                    <td><i class="fa fa-circle" style="color: @t;"></i></td>
                     <partial name="_ButtonsPartialView" model="Emp.Id" />
                 </tr>
             }
