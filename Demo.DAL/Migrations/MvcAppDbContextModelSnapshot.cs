@@ -94,6 +94,7 @@ namespace Demo.DAL.Migrations
                 {
                     b.HasOne("Demo.DAL.Models.Department", "department")
                         .WithMany("Employees")
+                        //.OnDelete(DeleteBehavior.Cascade)
                         .HasForeignKey("DepartmentId");
 
                     b.Navigation("department");

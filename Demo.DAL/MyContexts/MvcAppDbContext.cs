@@ -13,12 +13,14 @@ namespace Demo.DAL.MyContexts
 
         public MvcAppDbContext(DbContextOptions<MvcAppDbContext>options) : base(options)
         {
-
+            
         }
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //=> optionsBuilder.UseSqlServer(
         //        "Server = . ; Database = MvcProjectDb ; Trusted_connection = True ; Trust Server Certificate = True");
+
+        
 
         public DbSet<Department> Departments { get; set; }
         public DbSet<Employee>Employees  { get; set; }

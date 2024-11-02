@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Demo.BLL.Interfaces;
 using Demo.BLL.Repositories;
+using Demo.DAL.Migrations;
 using Demo.DAL.MyContexts;
 //using Demo.PL.MappingProfiles;
 using Microsoft.AspNetCore.Builder;
@@ -34,10 +35,12 @@ namespace Demo.PL
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
-            //services.AddScoped<IGenericRepository, GenericRepository>();
-            services.AddScoped<IDepartmentRepository, DepartmentRepository>();
-            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            //services.AddScoped<IGenericRepository<Employee>, GenericRepository<Employee>>();
+            //services.AddScoped<IDepartmentRepository, DepartmentR epository>();
+            //services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IUnitOfWork,UnitOfWork>();
             //services.AddAutoMapper(Config => Config.AddProfile(new EmployeeProfile()));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

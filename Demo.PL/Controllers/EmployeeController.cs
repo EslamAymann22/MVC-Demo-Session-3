@@ -12,14 +12,18 @@ namespace Demo.PL.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly IEmployeeRepository _employeeRepository;
-        private readonly IDepartmentRepository _departmentRepository;
+        //private readonly IEmployeeRepository _employeeRepository;
+        //private readonly IDepartmentRepository _UnitOfWork.DepartmentRepository;
+        private readonly IUnitOfWork _UnitOfWork;
+
         //private readonly IMapper _mapper;
-        public EmployeeController(IEmployeeRepository employeeRepository
-            , IDepartmentRepository departmentRepository)
+        public EmployeeController(/*IEmployeeRepository employeeRepository
+            , IDepartmentRepository departmentRepository*/
+            IUnitOfWork unitOfWork)
         {
-            _employeeRepository = employeeRepository;
-            _departmentRepository = departmentRepository;
+            _UnitOfWork = unitOfWork;
+            //_employeeRepository = employeeRepository;
+            //_UnitOfWork.DepartmentRepository = departmentRepository;
 
         }
         public IActionResult Index(string SearchName)
@@ -27,12 +31,12 @@ namespace Demo.PL.Controllers
 
             if (SearchName is null || SearchName == "")
             {
-                var _Departments = _employeeRepository.GetAll();
-                return View(_Departments);
+                var res = _UnitOfWork.EmployeeRepository.GetAll();
+                return View(res);
             }
             else
             {
-                var res = _employeeRepository.SearchWithName(SearchName);
+                var res = _UnitOfWork.EmployeeRepository.SearchWithName(SearchName);
                 return View(res); 
             }
         }
@@ -41,7 +45,7 @@ namespace Demo.PL.Controllers
         public IActionResult Create()
         {
      
-            ViewBag.Departments = _departmentRepository.GetAll();
+            ViewBag.Departments = _UnitOfWork.DepartmentRepository.GetAll();
             return View();
         }
         [HttpPost]
@@ -51,7 +55,8 @@ namespace Demo.PL.Controllers
 
             if (ModelState.IsValid)
             {
-                _employeeRepository.Add(Emp);
+                _UnitOfWork.EmployeeRepository.Add(Emp);
+                _UnitOfWork.Complete();
                 return RedirectToAction(nameof(Index));
             }
             return View(Emp);
@@ -60,10 +65,10 @@ namespace Demo.PL.Controllers
         [HttpGet]
         public IActionResult Edit(int? id , string ViewName="Edit")
         {
-            ViewBag.Departments = _departmentRepository.GetAll();
+            ViewBag.Departments = _UnitOfWork.DepartmentRepository.GetAll();
             if (id is null)
                 return BadRequest();
-            var res = _employeeRepository.GetById(id.Value);
+            var res = _UnitOfWork.EmployeeRepository.GetById(id.Value);
 
             if (res is null)
                 return NotFound();
@@ -75,7 +80,8 @@ namespace Demo.PL.Controllers
         {
             if (ModelState.IsValid)
             {
-                _employeeRepository.Update(Employee);
+                _UnitOfWork.EmployeeRepository.Update(Employee);
+                _UnitOfWork.Complete();
                 return RedirectToAction(nameof(Index));
             }
             return View(Employee);
@@ -98,7 +104,8 @@ namespace Demo.PL.Controllers
             {
                 try
                 {
-                    _employeeRepository.Delete(employee);
+                    _UnitOfWork.EmployeeRepository.Delete(employee);
+                    _UnitOfWork.Complete();
                     return RedirectToAction(nameof(Index));
                 }
                 catch (System.Exception ex)

@@ -12,9 +12,9 @@ namespace Demo.BLL.Interfaces
     {
         IEnumerable<T> GetAll();
         T GetById(int Id);
-        int Add(T Item);
-        int Update(T Item);
-        int Delete(T Item);
+        void Add(T Item);
+        void Update(T Item);
+        void Delete(T Item);
         //IEnumerable<T> SearchWithName(string Name);
         
 

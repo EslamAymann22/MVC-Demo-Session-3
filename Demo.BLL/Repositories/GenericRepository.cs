@@ -18,16 +18,14 @@ namespace Demo.BLL.Repositories
         {
             _DbContext = DbContext;
         }
-        public int Add(T Item)
+        public void Add(T Item)
         {
             _DbContext.Add(Item);
-            return _DbContext.SaveChanges();
         }
 
-        public int Delete(T Item)
+        public void Delete(T Item)
         {
             _DbContext.Remove(Item);
-            return _DbContext.SaveChanges();
         }
 
         public IEnumerable<T> GetAll()
@@ -43,10 +41,9 @@ namespace Demo.BLL.Repositories
         public T GetById(int Id)
             => _DbContext.Set<T>().Find(Id);
 
-        public int Update(T Item)
+        public void Update(T Item)
         {
             _DbContext.Update(Item);
-            return _DbContext.SaveChanges();
         }
 
         //public IQueryable<T> SearchWithName(string SearchName) 
