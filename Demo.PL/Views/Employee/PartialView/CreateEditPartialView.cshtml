@@ -1,14 +1,21 @@
 ﻿
-@model Employee
+@model Employee 
 
 @{
     var Departments = new SelectList(ViewBag.Departments, "Id", "Name");
 }
 
+
+
 <div class="form-group">
     <label class="col-form-label" asp-for="Name"></label>
     <input class="form-control" asp-for="Name" />
     <span asp-validation-for="Name" class="alert-danger"></span>
+</div>
+
+<div class="form-group">
+    <label class="col-form-label">Image</label>
+    <input class="form-control" type="image" name="Image" /> 
 </div>
 
 <div class="form-group">

@@ -1,4 +1,5 @@
 ﻿using Demo.DAL.Migrations;
+using Microsoft.AspNetCore.Http;
 using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,10 @@ namespace Demo.DAL.Models
         public bool  IsActive { get; set; }
         public string Email { get; set; }
         public string Phone {  get; set; }
+
+        public string ImageName { get; set; }
+
+        //public IFormFile Image { get; set; }
 
         public DateTime HireDate { get; set; }
         public DateTime CreationDate { get; set; } = DateTime.Now;

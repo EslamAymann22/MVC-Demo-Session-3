@@ -16,11 +16,11 @@ namespace Demo.BLL.Repositories
         private readonly MvcAppDbContext _DbContext;
         public GenericRepository(MvcAppDbContext DbContext)
         {
-            _DbContext = DbContext;
+              _DbContext = DbContext;
         }
-        public void Add(T Item)
+        public async Task AddAsync(T Item)
         {
-            _DbContext.Add(Item);
+            await _DbContext.AddAsync(Item);
         }
 
         public void Delete(T Item)
@@ -28,22 +28,22 @@ namespace Demo.BLL.Repositories
             _DbContext.Remove(Item);
         }
 
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAllAsync()
         { 
 
             if(typeof(T) == typeof(Employee))
             {
-                return (IEnumerable<T>) _DbContext.Employees.Include(E=>E.department).ToList();
+                return (IEnumerable<T>)await _DbContext.Employees.Include(E => E.department).ToListAsync();
             }
 
-            return _DbContext.Set<T>().ToList();
+            return await _DbContext.Set<T>().ToListAsync();
         }
-        public T GetById(int Id)
-            => _DbContext.Set<T>().Find(Id);
+        public async Task<T> GetByIdAsync(int Id)
+            => await _DbContext.Set<T>().FindAsync(Id);
 
         public void Update(T Item)
         {
-            _DbContext.Update(Item);
+            _DbContext.AddAsync(Item);
         }
 
         //public IQueryable<T> SearchWithName(string SearchName) 

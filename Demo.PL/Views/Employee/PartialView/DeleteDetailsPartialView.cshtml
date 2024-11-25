@@ -1,6 +1,19 @@
 ﻿
 @model Employee
 
+<div>
+
+   <img src="~/Files/Images/@Model.ImageName" class="rounded" height="100" width="100" />
+
+<input asp-for="ImageName" hidden />
+</div>
+
+<div class="form-group">
+    <label class="col-form-label" asp-for="DepartmentId"></label>
+    <input readonly class="form-control" asp-for="department.Id" />
+
+</div>
+
 <div class="form-group">
     <label class="col-form-label" asp-for="Name"></label>
     <input readonly class="form-control" asp-for="Name" />

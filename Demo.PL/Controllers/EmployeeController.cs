@@ -2,14 +2,19 @@
 using Demo.BLL.Interfaces;
 using Demo.BLL.Repositories;
 using Demo.DAL.Models;
+using Demo.PL.Helper;
 using Demo.PL.ViewModels;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.Intrinsics.Arm;
+using System.Threading.Tasks;
 
 namespace Demo.PL.Controllers
 {
+    [Authorize]
     public class EmployeeController : Controller
     {
         //private readonly IEmployeeRepository _employeeRepository;
@@ -26,49 +31,50 @@ namespace Demo.PL.Controllers
             //_UnitOfWork.DepartmentRepository = departmentRepository;
 
         }
-        public IActionResult Index(string SearchName)
+        public async Task <IActionResult> Index(string SearchName)
         {
 
-            if (SearchName is null || SearchName == "")
+            //if (SearchName is null || SearchName == "")
             {
-                var res = _UnitOfWork.EmployeeRepository.GetAll();
+                var res = await _UnitOfWork.EmployeeRepository.GetAllAsync();
                 return View(res);
             }
-            else
-            {
-                var res = _UnitOfWork.EmployeeRepository.SearchWithName(SearchName);
-                return View(res); 
-            }
+            //else
+            //{
+            //    var res = await _UnitOfWork.EmployeeRepository.SearchWithName(SearchName);
+            //    return View(res); 
+            //}
         }
 
         [HttpGet]
         public IActionResult Create()
         {
      
-            ViewBag.Departments = _UnitOfWork.DepartmentRepository.GetAll();
+            ViewBag.Departments = _UnitOfWork.DepartmentRepository.GetAllAsync();
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Employee Emp)    
+        public async Task<IActionResult> Create(Employee Emp, IFormFile Image)    
         {
             //var MappedEmp=_mapper.Map<EmployeeViewModel,Employee>(EmpVM);
-
+            if (Image is not null)
+                Emp.ImageName = DocSetting.UploadFile(Image, "Image");
             if (ModelState.IsValid)
             {
-                _UnitOfWork.EmployeeRepository.Add(Emp);
-                _UnitOfWork.Complete();
+                await  _UnitOfWork.EmployeeRepository.AddAsync(Emp);
+                await _UnitOfWork.CompleteAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(Emp);
         }
 
         [HttpGet]
-        public IActionResult Edit(int? id , string ViewName="Edit")
+        public async Task<IActionResult> Edit(int? id , string ViewName="Edit")
         {
-            ViewBag.Departments = _UnitOfWork.DepartmentRepository.GetAll();
+            ViewBag.Departments = await _UnitOfWork.DepartmentRepository.GetAllAsync();
             if (id is null)
                 return BadRequest();
-            var res = _UnitOfWork.EmployeeRepository.GetById(id.Value);
+            var res = await _UnitOfWork.EmployeeRepository.GetByIdAsync(id.Value);
 
             if (res is null)
                 return NotFound();
@@ -76,36 +82,41 @@ namespace Demo.PL.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(Employee Employee)
+        public async Task<IActionResult> Edit(Employee Employee)
         {
             if (ModelState.IsValid)
             {
+                //DocSetting.UploadFile(Employee.ImageName.Image);
                 _UnitOfWork.EmployeeRepository.Update(Employee);
-                _UnitOfWork.Complete();
+                await _UnitOfWork.CompleteAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(Employee);
         }
 
-        public IActionResult Details(int? id) {
-           return Edit(id, "Details");
+        public async Task<IActionResult> Details(int? id) {
+           return await Edit(id, "Details");
         }
 
         [HttpGet]
-        public IActionResult Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
-            return Edit(id, "Delete");
+            return await Edit(id, "Delete");
         }
 
         [HttpPost]
-        public IActionResult Delete(Employee employee)
+        public async Task<IActionResult> Delete(Employee employee)
         {
             if (ModelState.IsValid)
             {
                 try
                 {
                     _UnitOfWork.EmployeeRepository.Delete(employee);
-                    _UnitOfWork.Complete();
+                    int res = await _UnitOfWork.CompleteAsync();
+                    if (res > 0 && employee.ImageName is not null )
+                    {
+                        DocSetting.DeleteFile(employee.ImageName, "Images");
+                    }
                     return RedirectToAction(nameof(Index));
                 }
                 catch (System.Exception ex)

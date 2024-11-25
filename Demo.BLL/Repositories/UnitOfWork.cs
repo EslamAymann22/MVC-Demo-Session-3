@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Demo.BLL.Repositories
 {
-    public class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork , IDisposable
     {
         private readonly MvcAppDbContext _DbContext;
 
@@ -24,9 +24,14 @@ namespace Demo.BLL.Repositories
 
         }
 
-        public int Complete()
+        public async Task<int> CompleteAsync()
         {
-           return _DbContext.SaveChanges();
+           return await _DbContext.SaveChangesAsync();
+        }
+
+        public void Dispose()
+        {
+            _DbContext.Dispose();
         }
     }
 }

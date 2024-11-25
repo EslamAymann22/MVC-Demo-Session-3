@@ -9,11 +9,11 @@
 
 
 
-<form asp-action="Create">
+<form asp-action="Create" enctype="multipart/form-data">
 
     <partial name="PartialView/CreateEditPartialView" model="@Model" />
 
-    <input type="submit" class="btn btn-info" value="Submit" />
+    <input type="submit" class="btn btn-info" value="Submit"  />
     <a asp-action="Index" class="btn btn-danger"> Back to list</a>
 
 </form>

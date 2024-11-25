@@ -910,8 +910,6 @@ C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
-C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -929,7 +927,6 @@ C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Connections.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
-C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Identity.dll
@@ -995,8 +992,6 @@ C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
-C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Core.dll
-C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -1067,7 +1062,6 @@ C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.IO
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.IO.FileSystem.Watcher.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.IO.IsolatedStorage.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.IO.MemoryMappedFiles.dll
-C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.IO.Pipelines.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.IO.Pipes.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.IO.UnmanagedMemoryStream.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\refs\System.Linq.dll
@@ -1307,7 +1301,6 @@ C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\De
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
@@ -1343,3 +1336,14 @@ C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\Microsoft.Exte
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Shared\_AuthLayout.cshtml.g.cs
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs

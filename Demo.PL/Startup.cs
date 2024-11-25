@@ -5,11 +5,15 @@ using System.Threading.Tasks;
 using Demo.BLL.Interfaces;
 using Demo.BLL.Repositories;
 using Demo.DAL.Migrations;
+using Demo.DAL.Models;
 using Demo.DAL.MyContexts;
+using Microsoft.AspNetCore.Authentication.Cookies;
+
 //using Demo.PL.MappingProfiles;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -39,6 +43,23 @@ namespace Demo.PL
             //services.AddScoped<IDepartmentRepository, DepartmentR epository>();
             //services.AddScoped<IEmployeeRepository, EmployeeRepository>();
             services.AddScoped<IUnitOfWork,UnitOfWork>();
+            //services.AddScoped<UserManager<ApplicationUser>>();
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(option =>
+                {
+                    option.LoginPath = "Account/Login";
+                    option.AccessDeniedPath = "Home/Error";
+                });// userManager RoleManager S
+            services.AddIdentity<ApplicationUser, IdentityRole>(Options =>
+            {
+                //Options.Password.RequireNonAlphanumeric = true;
+                //Options.Password.RequireLowercase = true;
+                //Options.Password.RequireUppercase = true;
+                //Options.Password.RequireDigit = true;
+                //Options.Password.RequiredLength = (int number )15;
+            })
+                .AddEntityFrameworkStores<MvcAppDbContext>()
+                .AddDefaultTokenProviders();
             //services.AddAutoMapper(Config => Config.AddProfile(new EmployeeProfile()));
 
         }
@@ -60,14 +81,14 @@ namespace Demo.PL
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication(); 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Account}/{action=Login}/{id?}");
             });
         }
     }
