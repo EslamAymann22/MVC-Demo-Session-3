@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\account\\checkyourinbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\account\\checkyourinbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|c:\\users\\hhhh\\desktop\\mvc-demo-session-3\\demo.pl\\helper\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BDE7C3F-456B-4722-B74D-F9D67DAA63E5}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\helper\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Demo.PL\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Demo.PL\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAUwGUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAgwKgAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T16:15:37.654Z",
               "IsPinned": true,
@@ -40,33 +56,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "Demo.PL\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "Demo.PL\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:30:51.12Z",
+              "DocumentIndex": 1,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:27:10.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForgetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Account\\ForgetPassword.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Account\\ForgetPassword.cshtml",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Account\\ForgetPassword.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Account\\ForgetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:26:44.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Demo.PL\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Demo.PL\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAzAAAAAAAAAA==",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T23:26:36.497Z",
+              "WhenOpened": "2024-11-27T07:26:35.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:26:34.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CheckYourInbox.cshtml",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Account\\CheckYourInbox.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Account\\CheckYourInbox.cshtml",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Views\\Account\\CheckYourInbox.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Account\\CheckYourInbox.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T23:22:49.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Helper\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Demo.PL\\Helper\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\MVC-Demo-Session-3\\Demo.PL\\Helper\\EmailSettings.cs",
+              "RelativeToolTip": "Demo.PL\\Helper\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:12:59.772Z",
+              "EditorCaption": ""
             }
           ]
         }

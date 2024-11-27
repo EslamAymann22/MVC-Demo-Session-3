@@ -1347,3 +1347,6 @@ C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Sh
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Account\ForgetPassword.cshtml.g.cs
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Account\CheckYourInbox.cshtml.g.cs
+C:\Users\hhhh\Desktop\MVC-Demo-Session-3\Demo.PL\obj\Debug\net5.0\Razor\Views\Account\ResetPassword.cshtml.g.cs
